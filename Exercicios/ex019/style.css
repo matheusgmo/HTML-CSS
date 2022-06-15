@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+/*
+id = # (1 elemento)
+class = . (1+ elemento)
+pseudo-class = :
+pseudo-element = ::
+> = children
+*/
+
+body{
+    font: 1em Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#principal{
+    color: black;
+}
+h1{
+    color: blue;
+}
+.basico{
+    color: rgb(18, 224, 18);
+}
+.intermediario{
+    color: rgb(225, 225, 15);
+}
+.avançado{
+    color: rgb(214, 61, 61);
+}
