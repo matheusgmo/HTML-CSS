@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*Estilo para Telas*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font: 1em Arial, Helvetica, sans-serif;
+}
