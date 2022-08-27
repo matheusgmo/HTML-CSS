@@ -29,6 +29,7 @@ body{
 header{
     background-color: var(--cor3);
     color: var(--cor2);
+    min-height: 60px;
 }
 
 #menu{
@@ -100,6 +101,7 @@ footer{
     color: var(--cor2);
     width: 100vw;
     height: 5vh;
+    min-height: 30px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
