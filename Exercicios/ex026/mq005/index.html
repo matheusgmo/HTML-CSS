@@ -5,20 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
 
     <header>
-        <h1>Meu Site</h1>
-        <menu>
+        <div id="menu">
+            <h1>Meu Site</h1>
+            <span id="menu_button" class="material-symbols-rounded" onclick="menuclick()">
+                menu
+            </span>
+        </div>
+        <div id="menu_itens">
             <ul>
-                <li><a href="#">Opção 1</a></li>
-                <li><a href="#">Opção 2</a></li>
-                <li><a href="#">Opção 3</a></li>
-                <li><a href="#">Opção 4</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-        </menu>
+        </div>
     </header>
 
     <main>
@@ -33,5 +39,16 @@
         <p>Site criado por <a href="https://github.com/matheusgmo" target="_blank">Matheus Moraes</a></p>
     </footer>
 
+    <script>
+        function menuclick(){
+            if(menu_itens.style.display == 'block'){
+                menu_itens.style.display = 'none'
+            }
+            else{
+                menu_itens.style.display = 'block'
+            }
+        }
+    </script>
+    
 </body>
 </html>
