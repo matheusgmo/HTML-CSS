@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    #menu_button{
+        display: none;
+    }
+
+    #menu_itens{
+        display: block;
+    }
+
+    header{
+        display: flex;
+    }
+}
